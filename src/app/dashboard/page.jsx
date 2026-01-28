@@ -1,4 +1,4 @@
-import { createClient } from '@/lib/supabase/server'
+import { createClient } from '@/lib/supabase/server.js'
 import { redirect } from 'next/navigation'
 import { logout, addNote, deleteNote } from './actions'
 export const dynamic = "force-dynamic";
